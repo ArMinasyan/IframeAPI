@@ -1,0 +1,25 @@
+{
+  "name": "iframeapi",
+  "version": "1.0.0",
+  "description": "Generate embed url and iframe code from original YouTube url, and save in DB, save in DB also link of image and video.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "node app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Arman Minasyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.9.1",
+    "youtube-dl": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
