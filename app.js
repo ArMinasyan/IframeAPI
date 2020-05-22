@@ -11,6 +11,10 @@ var app = express();
 var port =process.env.PORT || 3000;
 
 ///APP settings___________________________
+mongoose.connect('mongodb_url', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 
 app.use(file_upload());
 app.use(bodyparser.json())
